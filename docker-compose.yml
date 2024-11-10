@@ -1,0 +1,8 @@
+version: '3'
+services:
+  yt-dlp-service:
+    build: .
+    ports:
+      - "5566:5566"
+    volumes:
+      - "/Users/srinivas/Music/Music/Media.localized/Automatically Add to Music.localized:/app/downloads"
