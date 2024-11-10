@@ -5,4 +5,4 @@ services:
     ports:
       - "5566:5566"
     volumes:
-      - "/Users/srinivas/Music/Music/Media.localized/Automatically Add to Music.localized:/app/downloads"
+      - "${MUSIC_DOWNLOADS_PATH}:/app/downloads"
