@@ -1,8 +1,8 @@
 start: stop certificate
-	docker-compose up --build -d
+	docker compose up --build -d
 
 stop:
-	docker-compose down
+	docker compose down
 
 certificate: mydomain.key mydomain.crt
 
